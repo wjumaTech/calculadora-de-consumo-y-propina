@@ -25,23 +25,23 @@
   <div class="modal fade" id="nuevaOrdenModal" tabindex="-1" aria-labelledby="nuevaOrdenModal" aria-hidden="true">
     <div class="modal-dialog">
       <form class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Restaurant App</h1>
+        <div class="modal-header bg-primary">
+          <h1 class="modal-title fs-5 fw-bold text-white" id="exampleModalLabel">Restaurant App</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <div class="mb-3">
             <label for="mesa">Mesa</label>
-            <input class="form-control" type="number" name="mesa" />
+            <input class="form-control" type="number" name="mesa" id="mesa" />
           </div>
           <div class="mb-3">
             <label for="hora">Hora</label>
-            <input class="form-control" type="time" name="hora" />
+            <input class="form-control" type="time" name="hora" id="hora" />
           </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          <button type="button" id="crear-orden" class="btn btn-primary">Crear orden</button>
+          <button type="button" type="submit" id="crear-orden" class="btn btn-primary">Crear orden</button>
         </div>
       </form>
     </div>
