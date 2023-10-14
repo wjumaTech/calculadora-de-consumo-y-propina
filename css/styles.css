@@ -1,0 +1,10 @@
+.navbar {
+  height: 60px;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+}
